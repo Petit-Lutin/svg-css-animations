@@ -396,47 +396,50 @@ svg{
    max-height:50vh;
 }
 
-
 .casual * {
   animation-name: disappear;
- 
-  /* animation-name: test2;
-  -webkit-animation-name: test2; */
+  -webkit-animation-name: disappear;
   animation-duration: 4s;
   -webkit-animation-duration: 4s;
   animation-iteration-count: infinite;
-
+  -webkit-animation-iteration-count: infinite;
 }
 
 .corporate *{
-     animation-name: appear;
-    -webkit-animation-name: appear; 
-    /* animation-name: test;
-    -webkit-animation-name: test; */
-    animation-duration: 4s;
-    -webkit-animation-duration: 4s;
-      animation-iteration-count: infinite;
-      animation-direction: reverse;
-      animation-delay: 1.1s;
+   animation-name: appear;
+   -webkit-animation-name: appear; 
+   animation-duration: 4s;
+   -webkit-animation-duration: 4s;
+   animation-iteration-count: infinite;
+   -webkit-animation-iteration-count: infinite;
+   animation-direction: reverse;
+   -webkit-animation-duration: reverse;
+   animation-delay: 1.1s;
+   -webkit-animation-delay: 1.1s;
 }
 
  @keyframes disappear {
  
-
-   0%{display:inline;}
+   0%{
+      display:inline;
+   }
     50% {  
       display:none;
-      fill:none; }
-    100%{display:inline;}
+      fill:none; 
+   }
+    100%{
+      display:inline;
+   }
 }
 
 @keyframes appear {
 
-   0%{display:inline;}
+   0%{
+      display:inline;
+   }
     50% {  
       display:none;
-      fill:none; }
-    /* 75%{display:inline;} */
+      fill:none; 
+   }
 } 
-
 </style>
