@@ -8,6 +8,12 @@ Using a single svg file, adding some classes and animation to make the cat switc
 
 Demo can be seen [here](https://petit-lutin.github.io/svg-css-animations/cat-switch-casual-corporate/).
 
-## carmen-sandiego
+## carmen-sandiego 👒
 
-From the animated series of the same name. In progress.
+From the animated series of the same name. In progress. 
+
+Playing around with paths in svg. 
+
+From a single svg file, a dashed line appears. Carmen's hat *should* follow the dashed line...
+
+Demo can be seen [here](https://petit-lutin.github.io/svg-css-animations/carmen-sandiego/).
